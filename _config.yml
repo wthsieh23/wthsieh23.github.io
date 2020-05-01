@@ -103,3 +103,12 @@ deploy:
   repository: http://github.com/wthsieh23/wthsieh23.github.io.git
   branch: master
 
+# search
+search:
+  path: search.json
+  field: post
+  content: true
+  format: html
+  limit: 10000
+
+
