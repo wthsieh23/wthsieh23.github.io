@@ -28,7 +28,7 @@
 <meta property="og:description" content="install hexoStep-by-Step123456npm insntall -g hexo-clihexo init &lt;folder&gt;cd &lt;folder&gt;npm installmodify _config.ymlgit clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next.git themes&#x2F;next  set">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2020-05-01T00:01:10.000Z">
-<meta property="article:modified_time" content="2020-05-01T00:49:12.953Z">
+<meta property="article:modified_time" content="2021-03-15T16:41:48.872Z">
 <meta property="article:author" content="WT">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -212,10 +212,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2020-05-01 08:01:10 / Modified: 08:49:12" itemprop="dateCreated datePublished" datetime="2020-05-01T08:01:10+08:00">2020-05-01</time>
+              <time title="Created: 2020-05-01 08:01:10" itemprop="dateCreated datePublished" datetime="2020-05-01T08:01:10+08:00">2020-05-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-03-16 00:41:48" itemprop="dateModified" datetime="2021-03-16T00:41:48+08:00">2021-03-16</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -243,7 +249,7 @@
 <li>create <username>.github.io project</li>
 <li>npm install hexo-deployer-git –save</li>
 <li>modify _config.yml<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span><br></pre></td></tr></table></figure></li>
-<li>then you can check: <username>.github.io</li>
+<li>then you can check: username.github.io</li>
 </ol>
 <h1 id="upload-to-github-for-multi-pc-synchronization"><a href="#upload-to-github-for-multi-pc-synchronization" class="headerlink" title="upload to github for multi-pc synchronization"></a>upload to github for multi-pc synchronization</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git checkout -b src</span><br><span class="line">modify .gitignore   <span class="comment">#there should have a default one</span></span><br><span class="line">git add .</span><br><span class="line">git submodule add https://github.com/theme-next/hexo-theme-next.git themes/next</span><br><span class="line">git commit -m <span class="string">"first commit"</span></span><br><span class="line">git remote add origin git@github.com:wthsieh23/wthsieh23.github.io.git</span><br><span class="line">git push origin src</span><br></pre></td></tr></table></figure>
 
@@ -404,7 +410,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2020</span>
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
