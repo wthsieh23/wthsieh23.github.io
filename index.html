@@ -115,6 +115,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
@@ -180,6 +185,73 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-tw">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/03/16/Hexo-Commands/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="WT">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WT-blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/03/16/Hexo-Commands/" class="post-title-link" itemprop="url">Hexo Commands</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-03-16 01:41:44 / Modified: 01:55:24" itemprop="dateCreated datePublished" datetime="2021-03-16T01:41:44+08:00">2021-03-16</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="create-post-page-draft"><a href="#create-post-page-draft" class="headerlink" title="create post/page/draft"></a>create post/page/draft</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new title    <span class="comment"># use default_layout setting in _config.yml</span></span><br><span class="line">hexo new post title</span><br><span class="line">hexo new post <span class="string">"title with space"</span></span><br><span class="line">hexo new draft <span class="string">"title with space"</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="publish-post-from-draft"><a href="#publish-post-from-draft" class="headerlink" title="publish post from draft"></a>publish post from draft</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo pulish <span class="string">"title with space"</span>    <span class="comment">#move draft content from source/_drafts to source/_posts folder</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="blog-generation"><a href="#blog-generation" class="headerlink" title="blog generation"></a>blog generation</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo g     <span class="comment"># hexo generate</span></span><br><span class="line">hexo s     <span class="comment"># hexo server</span></span><br><span class="line">hexo s -d  <span class="comment"># able to view draft posts</span></span><br><span class="line">hexo d     <span class="comment"># hexo deploy,   publish to github</span></span><br><span class="line">hexo g -d  <span class="comment"># generate and deploy</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul>
+<li><a href="https://docs.github.com/en/github/writing-on-github" target="_blank" rel="noopener">github flavored markdown syntax</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -427,7 +499,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
