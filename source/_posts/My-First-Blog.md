@@ -28,7 +28,7 @@ deploy:
   repo: 
     github: git@github.com:<username>/<username>.github.io.git
 ```
-4. then you can check: <username>.github.io
+4. then you can check: username.github.io
 
 
 # upload to github for multi-pc synchronization
@@ -66,12 +66,14 @@ type: "categories"
 ```
 
 then add the below attributes in the page you want
-```---
+``` bash
+---
 title: xxx
 categories:
 - test      # category
 - test1     # subcategory
 ---
+```
 
 # add tags
 ``` bash
