@@ -14,6 +14,9 @@ tags: productivity
 * 工作環境簡單化
 > 目前想法是能透過"SOP＋自動化"來讓"工廠運作"有效率
 * 搭配的工具
-> 目前是用todoist for daily target，Trello for long term plan。
+> 目前是用[Todoist][todoist] for daily target，[Trello][trello] for long term plan。
 
 今年來試著看看是不是能提升我的工作效率
+
+[todoist]: https://todoist.com "todoist website"
+[trello]: https://trello.com "trello website"
