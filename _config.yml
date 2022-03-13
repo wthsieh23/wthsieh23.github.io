@@ -103,6 +103,14 @@ deploy:
   repository: http://github.com/wthsieh23/wthsieh23.github.io.git
   branch: master
 
+# Backup
+backup:
+  type: git
+  theme: next
+  repository:
+    github: git@github.com:wthsieh23/wthsieh23.git,hexo_backup
+    # gitcafe: git@github.com:wthsieh23/wthsieh23.git,hexo_backup
+
 # search
 search:
   path: search.json
